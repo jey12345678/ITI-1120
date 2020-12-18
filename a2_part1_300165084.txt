@@ -1,0 +1,331 @@
+>>>#Testing elementary school quiz function
+>>> elementary_school_quiz(1,1)
+Question 1: What is the result of 7^9?40353607
+1
+>>> elementary_school_quiz(1,2)
+Question 1: What is the result of 3^4?81
+Question 2: What is the result of 9^1?8
+1
+>>> elementary_school_quiz(0,1)
+Question 1: What is the result of 4 - 8?-4
+1
+>>> elementary_school_quiz(0,2)
+Question 1: What is the result of 0-1?-1
+Question 2: What is the result of 7-0?0
+1
+>>> elementary_school_quiz(0,2)
+Question 1: What is the result of 3-7?-4
+Question 2: What is the result of 6-6?0
+2
+>>> elementary_school_quiz(1,1)
+Question 1: What is the result of 8^1?0
+0
+>>>#Testing for the high school quiz function
+>>> high_school_quiz(0,2,4)
+The linear equation  2 x +  4 = 0 
+ has the following root/solution:  -2.0
+>>> high_school_quiz(1,2,1)
+The quadratic equation  1 x^2 +  2 x +  1 = 0 
+ has only one solution,a real root:  -1.0
+>>> high_school_quiz(0,0,0)
+The quadratic equation  0 x^2 + 0 x +  0 is satisifed for all numbers x.
+>>> high_school_quiz(0,0,10)
+The quadratic equation  0 x^2 + 0 x +  10 is satisifed for no number x.
+>>> high_school_quiz(1,3,1)
+The quadratic equation  1 x^2 +  3 x +  1 = 0 
+ has the following two real roots: 
+ -0.3819660112501051 and -2.618033988749895
+>>> high_school_quiz(3,2,15)
+The quadratic equation  3 x^2 +  2 x +  15 = 0 
+ has the following two complex roots: 
+ -0.3333333333333333 + i 2.2110831935702664  
+ and 
+ -0.3333333333333333 - i 2.2110831935702664
+>>> high_school_quiz(3,2,-15)
+The quadratic equation  3 x^2 +  2 x +  -15 = 0 
+ has the following two real roots: 
+ 1.9274433277084226 and -2.5941099943750894
+
+>>>#Testing for the Math quiz generator for elementary students
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Naruto
+Hi Naruto. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Naruto welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Naruto what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0,1, or 2: 1
+Naruto here is your question: 
+Question 1: What is the result of 9^5?59049
+Congratulations  Naruto ! You'll probably get an A tommorow.
+Good bye Naruto!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+4
+Jeyason you are not a target audience for this software.
+Good bye Jeyason!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Logan
+Hi Logan. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+2
+****************************************************************************
+*                                                                          *
+*         Quadratic equation, ax^2+bx+c = 0, solver for  Logan            *
+*                                                                          *
+****************************************************************************
+Logan, would you like a quadratic equation solved?         YES
+Good choice!
+Enter the number of coefficient a:1
+Enter the number of coefficient b:2
+Enter the number of coefficient c:3
+The quadratic equation  1.0 x^2 +  2.0 x +  3.0 = 0 
+has the following two complex roots: 
+ -1.0 + i 1.4142135623730951  
+ and 
+ -1.0 - i 1.4142135623730951
+Logan, would you like a quadratic equation solved? YES
+Good choice!
+Enter the number of coefficient a:-1
+Enter the number of coefficient b:10
+Enter the number of coefficient c:36
+The quadratic equation  -1.0 x^2 +  10.0 x +  36.0 = 0 
+has the following two real roots: 
+ -2.810249675906654 and 12.810249675906654
+Logan, would you like a quadratic equation solved? yeS
+Good choice!
+Enter the number of coefficient a:0
+Enter the number of coefficient b:2.5
+Enter the number of coefficient c:3.246
+The linear equation  2.5 x +  3.246 = 0 
+has the following root/solution:  -1.2984
+Logan, would you like a quadratic equation solved? Yes
+Good choice!
+Enter the number of coefficient a:0
+Enter the number of coefficient b:0
+Enter the number of coefficient c:2.5
+The quadratic equation  0.0 x^2 + 0.0 x +  2.5 
+is satisifed for no number x.
+Logan, would you like a quadratic equation solved? Yes
+Good choice!
+Enter the number of coefficient a:0
+Enter the number of coefficient b:0
+Enter the number of coefficient c:0
+The quadratic equation  0.0 x^2 + 0.0 x +  0.0 
+is satisifed for all numbers x.
+Logan, would you like a quadratic equation solved? NO
+Good bye Logan!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Caleb
+Hi Caleb. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Caleb welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Caleb what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+5
+Invalid chose. Only 0 or 1 is accepted.
+Good bye Caleb!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Jeyason welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Jeyason what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0,1, or 2: 0
+Zero questions.OK.Good bye
+Good bye Jeyason!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Levi
+Hi Levi. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Levi welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Levi what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0,1, or 2: 6
+Only 0,1 or 2 are valid choices for the number of questions.
+Good bye Levi!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Jeyason welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Jeyason what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0,1, or 2: 1
+Jeyason here is your question: 
+Question 1: What is the result of 4^3?64
+Congratulations  Jeyason ! You'll probably get an A tommorow.
+Good bye Jeyason!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Jeyason welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Jeyason what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0,1, or 2: 2
+Jeyason here is your 2 questions:
+Question 1: What is the result of 1-4?-2
+Question 2: What is the result of 8-6?2
+You did ok  Jeyason ,but I know you can do better.
+Good bye Jeyason!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Jeyason welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Jeyason what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0,1, or 2: 2
+Jeyason here is your 2 questions:
+Question 1: What is the result of 5-6?0
+Question 2: What is the result of 2-7?10
+I think you need some more practice  Jeyason .
+Good bye Jeyason!
+
+*******************************************
+*                                         *
+*----Welcome to my math quiz-generator----*
+*                                         *
+*******************************************
+What is your name? Jeyason
+Hi Jeyason. Are you in? Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above?
+1
+****************************************************************************
+*                                                                          *
+*     Jeyason welcome to my quiz-generator for elementary school students.  *
+*                                                                          *
+****************************************************************************
+Jeyason what would you like to practice? Enter:
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0,1, or 2: 1
+Jeyason here is your question: 
+Question 1: What is the result of 2^4?0
+I think you need some more practice  Jeyason .
+Good bye Jeyason!
+
+
+
+
+
+
+
+
